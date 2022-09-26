@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{    double R, B;
+    printf ("\nVvedite radius vashego kruga: "); scanf  ("%lf",&R);
+    printf( "\nVvedite storonu vashego kvadrata: "); scanf  ("%lf",&B);
+    double result = (sqrt(2) * B) / 2;
+    printf("%lf",result);
+    if (R <= result) {
+        printf( "\nNe podxodit. ");
+    }
+    else {
+        printf( "\nPodxodit!");
+    }
+    return 0;
+}    
