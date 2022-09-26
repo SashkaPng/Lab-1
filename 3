@@ -1,0 +1,17 @@
+ #include <stdio.h>
+#include <math.h>
+int main()
+{
+    double a,b,c;
+    int res = 0;
+    printf  ("\nВведите число 1 "); 
+    scanf  ("%lf",&a);
+    printf  ("\nВведите число 2 ");
+    scanf  ("%lf",&b);
+    printf  ("\nВведите число 3 ");
+    scanf  ("%lf",&c);
+    if(a == floor(a))res++;
+    if(b == floor(b))res++;
+    if(c == floor(c))res++;
+    printf ("%d", res);
+}
